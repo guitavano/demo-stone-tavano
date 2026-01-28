@@ -1,12 +1,9 @@
 {
-  "name": "Home Page",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": [
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header"
-      }
-    },
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "images": [
@@ -64,6 +61,12 @@
             "collection": "136"
           }
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
       }
     },
     {
@@ -143,9 +146,6 @@
       }
     }
   ],
-  "__resolveType": "website/pages/Page.tsx",
-  "path": "/",
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
+  "name": "Home Page",
+  "path": "/"
 }
