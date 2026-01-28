@@ -1,26 +1,13 @@
 {
-  "name": "Category Page",
-  "path": "/*",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Header"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "commerce/sections/Seo/SeoPLPV2.tsx",
-        "jsonLD": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-          "sort": "",
-          "selectedFacets": [],
-          "advancedConfigs": {
-            "includeOriginalAttributes": []
-          },
-          "count": 12
-        }
       }
     },
     {
@@ -60,8 +47,6 @@
       }
     }
   ],
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  "name": "Category Page",
+  "path": "/*"
 }
